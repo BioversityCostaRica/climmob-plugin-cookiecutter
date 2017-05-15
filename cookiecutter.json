@@ -6,7 +6,7 @@
   "plugin_author_email": "me@myserver.com",
   "plugin_author_url": "www.myserver.com",
   "_copy_without_render": [
-    "templates/*"
+    "*jinja2"
   ]
 }
 
