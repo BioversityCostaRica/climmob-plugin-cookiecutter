@@ -1,0 +1,12 @@
+{
+  "project_name": "A Climmob plugin",
+  "plugin_name": "examplePlugin",
+  "plugin_version": "1.0",
+  "plugin_author": "Myself",
+  "plugin_author_email": "me@myserver.com",
+  "plugin_author_url": "www.myserver.com",
+  "_copy_without_render": [
+    "templates/*"
+  ]
+}
+
