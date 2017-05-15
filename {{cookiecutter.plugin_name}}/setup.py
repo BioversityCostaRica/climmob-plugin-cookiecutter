@@ -21,7 +21,7 @@ tests_require = [
 setup(
     name='{{ cookiecutter.plugin_name }}',
     version='{{ cookiecutter.plugin_version }}',
-    description='{{ cookiecutter.project_name }}',
+    description='{{ cookiecutter.plugin_description }}',
     long_description=README + '\n\n' + CHANGES,
     classifiers=[
         'Programming Language :: Python',

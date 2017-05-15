@@ -17,12 +17,9 @@ def display_actions_message():
         %(separator)s
 
         To make Climmob run this plugin do:
-        
-        Create a Python virtual environment.
-            virtualenv {{ cookiecutter.plugin_name }}_env
             
-        Activate the environment .
-            . ./{{ cookiecutter.plugin_name }}_env/bin/activate
+        Activate the Climmob environment .
+            . /path/to/ClimmobEnv/bin/activate
             
         Change directory into your newly created plugin.
             cd {{ cookiecutter.plugin_name }}

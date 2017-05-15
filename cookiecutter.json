@@ -1,6 +1,6 @@
 {
-  "project_name": "A Climmob plugin",
-  "plugin_name": "examplePlugin",
+  "plugin_description": "A Climmob plugin",
+  "plugin_name": "{{cookiecutter.plugin_description.lower().strip().replace(' ', '_').replace(':', '_').replace('-', '_').replace('!', '_')}}",
   "plugin_version": "1.0",
   "plugin_author": "Myself",
   "plugin_author_email": "me@myserver.com",
